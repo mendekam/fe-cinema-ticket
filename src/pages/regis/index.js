@@ -17,7 +17,7 @@ const index = () => {
     }
 
     const {
-        login,
+        register: login,
         handleSubmit,
         formState: { errors }
     } = useForm(defaultValues)
