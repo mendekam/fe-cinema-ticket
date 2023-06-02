@@ -61,7 +61,7 @@ const index = () => {
                     <legend htmlFor="role" className="p-3 text-xl">
                         Phone
                     </legend>
-                    <input hidden id="role" {...login("role", )} type="text" className="w-full outline-none h-full p-5" />
+                    <input hidden id="role" {...login("role", )} type="text" value="COSTUMER" className="w-full outline-none h-full p-5" />
                 </fieldset>
                 {errors.phone && <p className="text-red-600 text-sm">{errors.phone.message}</p>}
             </div>
