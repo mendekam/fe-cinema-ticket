@@ -54,7 +54,7 @@ const AuthProvider = ({ children }) => {
 
     const handleRegis = async (input, errorCallback) => {
         console.log('input', input);
-        await axios.post(url.apiRegis, input)
+        await axios.post("https://springbootgcpcr-a6bnbhk5xa-as.a.run.app/api/auth/register", input)
             .then((result) => {
                 toast.success('Akun anda berhasil di registrasi!')
                 router.push('/login')
