@@ -14,6 +14,7 @@
    - 'fe-cinema-ticket'
    - '--image'
    - 'gcr.io/$PROJECT_ID/springbootgcp:$COMMIT_SHA'
+   - '--allow-unauthenticated'
    - '--region'
    - 'asia-southeast1'
  images:
