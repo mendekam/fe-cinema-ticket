@@ -34,7 +34,7 @@ const index = () => {
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="h-screen w-screen flex flex-col justify-center items-center gap-10">
 
-            <h1 className="text-5xl">Login Page</h1>
+            <h1 className="text-5xl">Register Page</h1>
             <div className="w-[70%]">
                 <fieldset className="border-2 border-solid border-main-creme px-5 py-3">
                     <legend htmlFor="username" className="p-3 text-xl">
