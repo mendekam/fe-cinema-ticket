@@ -49,7 +49,7 @@ const index = () => {
                 </fieldset>
                 {errors.password && <p className="text-red-600 text-sm">{errors.password.message}</p>}
             </div>
-            <h4>Belum Punya akun? Silahkan Registrasi <Link href={'/register'} className="font-semibold">Disini</Link></h4>
+            <h4>Belum Punya akun? Silahkan Registrasi <Link href={'/regis'} className="font-semibold">Disini</Link></h4>
 
             <button className="p-5 bg-black text-white text-xl rounded-md">
                 Login
